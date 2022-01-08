@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Logo do google, barra de pesquisa e seus icones */
+.cabecalho{
+    margin: 29px 29px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+
+}
+.pesquisar-campo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding: 5px 0px;
+    width: 694px;
+    border: 1px solid #c3c3c3;
+    border-radius: 100px;
+    box-shadow: 1px 2px 8px #e0dada;
+}
+.pesquisar-campo-icones{
+    padding-left: 17px;
+}
+.pesquisar-campo input{
+    margin-left: 17px;
+    border: none;
+    width: 100%;
+}
+.pesquisar-campo input:focus{
+    outline: none;
+}
+.pesquisar-icones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.pesquisar-icones .lupa{
+    margin-right: 17px;
+}
+.barra-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icones-config-gaveta-login{
+    display: flex;
+    align-items: center;
+}
+.icones-config-gaveta-login a{
+    margin-left: 23px;
+}
+.alinhamento{
+    margin-left: 182px;
+    width: 656px;
+}
+.menu-opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    
+    position: relative;
+
+}
+.menu-opcoes a{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.menu-opcoes a img, svg{
+    margin-right: 3px;
+}
+.opcao-ferramenta{
+    margin-left: 50px;
+}
+
+/*~~~~~~ Main ~~~~~~ */
+.conteudo-principal{
+    margin-top: 15px;
+}
+.conteudo-principal p{
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.781);
+}
+.conteudo-principal .site p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 30px;
+}
+.conteudo-principal .site{
+    display: flex;
+    flex-flow: wrap column;
+}
+.alinhamento-texto{
+    width: 600px;
+}
+.conteudo-principal .site .site-link{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.conteudo-principal .site .site-titulo{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:8px 0px;
+}
+.conteudo-principal .site p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.conteudo-principal .site p a{
+    color: #910DB3;
+    text-decoration: none;
+}
+.conteudo-principal .site p a:visited{
+    color: #550DAB;
+}
+.conteudo-principal .site p a:hover{
+    text-decoration: underline;
+}
+.conteudo-principal .site .site-titulo:visited{
+    color: #550DAB;
+}
+.conteudo-principal .site .site-titulo:hover{
+    text-decoration: underline;
+}
+.pesquisas-relacionadas h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.pesquisas-relacionadas-colunas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 24px;
+}
+.pesquisas-relacionadas-colunas-1,
+.pesquisas-relacionadas-colunas-2{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+.pesquisas-relacionadas-colunas-itens{
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    border-radius: 100px;
+    height: 48px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.pesquisas-relacionadas-colunas-itens img{
+    display: flex;
+    padding-left: 10px;
+}
+.pesquisas-relacionadas-colunas-itens a{
+    text-decoration: none;
+    margin-left: 26px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+.pesquisas-relacionadas-colunas-itens a:hover{
+    text-decoration: underline;
+}
+.paginacao-google{
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    
+
+    margin-bottom: 100px;
+}
+.paginacao-google a{
+    padding: 0px 5px;
+}
+.paginacao-google-letra-g{
+    background: url("https://www.google.com/images/nav_logo321.webp");
+    background-position: -24px 0;
+    width: 28px;
+    height: 28px;    
+}
+
+.paginacao-google-letra-o{
+    background: url("https://www.google.com/images/nav_logo321.webp");
+    background-position: -53px 0;
+    width: 20px;
+    height: 28px;
+}
+.paginacao-google-letra-o-2{
+    background: url("https://www.google.com/images/nav_logo321.webp");
+    background-position: -74px 0;
+    width: 20px;
+    height: 28px;
+}
+.paginacao-google-letra-gle{
+    background: url("https://www.google.com/images/nav_logo321.webp");
+    background-position: -96px 0;
+    width: 71px;
+    height: 40px;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+table a{
+    text-decoration: none;
+    color: #1A87EB;
+}
+table a:hover{
+    text-decoration: underline;
+}
+table a:visited{
+    color: #1A87EB;
+}
+/*~~~~~~~ Footer ~~~~~~~~ */
+footer{
+    background-color: #f1f3f4;
+}
+.footer-localidade{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.footer-menu{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 22px 0px;
+}
+.footer-localidade a,
+.footer-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-localidade a{
+    color: #1A87EB;
+}
+.footer-localidade a:visited{
+    color:#1A87EB;
+}
+.footer-menu a{
+    color: #70757A;
+    padding-right: 24px;
+}
+.footer-menu a:hover{
+    color: #70757A;
+}
+.footer-localidade-pais{
+    padding: 23px 13px 13px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    color: #70757A;
+}
+.footer-localidade-endereco{
+    padding: 23px 0px 13px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-left: 1px solid #e0dada;
+}
+
+

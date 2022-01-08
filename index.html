@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thalysson Borges">
+    <meta name="keywords" content="html css">
+    <meta name="description" content="Exercicio para criar a pagina de resultados do google">
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <title>Exercicio 14 - Pagina de Resultados do Google</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="barra-pesquisa">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_92x30dp.png">
+                <div class="pesquisar-campo">
+                    <input type="text" id="pesquisa" name="pesquisa">
+                    <div class="pesquisar-icones">
+                        <a href=""><img class="pesquisar-campo-icones" src="https://img.icons8.com/fluency-systems-regular/16/000000/x.png"/></a>
+                        <text class="pesquisar-campo-icones">|</text>
+                        <a href=""><img class="pesquisar-campo-icones" src="https://img.icons8.com/fluency/20/000000/keyboard.png"/></a>
+                        <a href=""><img class="pesquisar-campo-icones" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAABs0lEQVQ4ja2UPWhUQRSFv/NeiMbKmChuGomVhYL4AxaJPxvBQheMkiiLpaAEtBNFBBGUpLAzBNTewkgsYhoVt4kiJsFGQVBcArIRMaiNEmXfsVBhszsTEbzdnDPnu/cWMyJSe4Z9RnAWaPstzWOGHp3S1dB9hcT8sLcAMwHLScbWh6f1vN5IQiCLjZFBVU3ZFDKCIEX0pbxo4F/rv4Gaag9zha4Bo8qxv4Qqhe6Dwh258cmRIIjM2yVmZcqOQGQsezP2ulp90WqWvhhaZWZj0xjKyKuUJJ+jIKxpQb5lfu4Z8KZxHF63fX83RaYe8FQclHwdA9pvzBzpz1J6gZc1o7yw6b1WOlpErPyxvHp3cY+6quzv3if5DnDu1ba91y+3X1wPcOHjpbcbph+cBA1a2eGO8Sf3lwQBvC/szNvZTUSLzNNfW7MD8w37eG7icalx60i5ry/9sFDJZ5nOAyTmypoVuZJGR6uh+0FQ14hbl1U5lIn0QPlWP8C9zuLtxFQXUsYmB/SpPtPUiIFmc8JiUMBEZ/FPxx4Lms1qYKg+E360ZndwX8BmV0gPfyOwNgYS5EL6T3fLj3D5zmcoAAAAAElFTkSuQmCC">
+                        <a href=""><svg class="pesquisar-campo-icones lupa" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 226 226" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#3498db"><path d="M124.88119,139.99935l23.35775,23.35774c-3.56804,6.80502 -3.93587,13.57325 -0.18393,17.3252l42.63249,42.63249c5.37045,5.37044 17.06771,2.42773 26.04297,-6.58431c9.01204,-9.01204 11.95475,-20.67252 6.58431,-26.04297l-42.59571,-42.63249c-3.78873,-3.75195 -10.55696,-3.38411 -17.36198,0.14714l-23.35774,-23.32096zM80.04167,0c-44.21419,0 -80.04167,35.82748 -80.04167,80.04167c0,44.2142 35.82748,80.04167 80.04167,80.04167c44.2142,0 80.04167,-35.82747 80.04167,-80.04167c0,-44.21419 -35.82747,-80.04167 -80.04167,-80.04167zM80.04167,141.25c-33.80436,0 -61.20833,-27.40397 -61.20833,-61.20833c0,-33.80436 27.40397,-61.20833 61.20833,-61.20833c33.80436,0 61.20833,27.40397 61.20833,61.20833c0,33.80436 -27.40397,61.20833 -61.20833,61.20833z"></path></g></g></svg></a>
+                    </div>  
+                </div>
+            </div>
+            <div class="icones-config-gaveta-login">
+                <a href=""><img src="https://img.icons8.com/material/27/000000/gear.png"/></a>
+                <a href=""><img src="https://img.icons8.com/material-rounded/22/000000/circled-menu.png"/></a>
+                <a href=""><img src="https://img.icons8.com/bubbles/45/000000/user.png"/></a>
+            </div>
+        </div>
+        <nav class="menu-opcoes alinhamento">
+            <a href=""><img class="icon-lupa" src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/>Todas</a>
+            <a href=""><img src="https://img.icons8.com/ios/18/000000/pictures-folder.png"/>Imagens</a>
+            <a href=""><img src="https://img.icons8.com/material-outlined/18/000000/marker.png"/>Maps</a>
+            <a href=""><img src="https://img.icons8.com/material-outlined/16/000000/video.png"/>Vídeos</a>
+            <a href=""><img src="https://img.icons8.com/material-outlined/16/000000/price-tag.png"/>Shopping</a>
+            <a href=""><img src="https://img.icons8.com/material-outlined/16/000000/menu-2.png"/>Mais</a>
+            <a href="" class="opcao-ferramenta">Ferramentas</a>
+        </nav>
+        <hr style="opacity: 25%;">
+    </header>
+    <main class="conteudo-principal alinhamento">
+        <p>Aproximadamente 7.970.000 resultados (0,70 segundos) </p>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://www.espacoestudmais.com.br</a>
+            <a href="" class="site-titulo">Estud + | Espaço de Estudo | Brasília</a>
+            <p>O espaço Estud+ possui uma estrutura pensada para que você alcance a excelência nos estudos com o conforto de que precisa! Estudar deve ser leve e, ...</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://www.estudemais.com.br</a>
+            <a href="" class="site-titulo">Estude Mais – Ferramenta de Estudos</a>
+            <p>O que é Estude Mais? Neste site, você encontrará um enorme conteúdo de vestibular com provas, soluções e gabaritos de vários vestibulares e concursos de ...</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://www.instagram.com › espacoestudmais</a>
+            <a href="" class="site-titulo">Estud+ | Espaço de Estudo (@espacoestudmais) • Instagram ...</a>
+            <p>5798 Followers, 985 Following, 259 Posts - See Instagram photos and videos from Estud+ | Espaço de Estudo (@espacoestudmais)</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://estudeemcasa.educacao.mg.gov.br</a>
+            <a href="" class="site-titulo">Estude em Casa</a>
+            <p>Conheça todas as ferramentas para você <b>estudar</b> em casa com segurança neste período ... e qual a sequência <b>mais</b> indicada para dar continuidade aos estudos, ... <br><a href="">Planos de Estudos Tutorados</a> · <a href="">Ens. Fund. Anos Finais 2021</a> · <a href="">Ir para Ensino Médio</a></p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">http://www.edusesc.com.br › estude</a>
+            <a href="" class="site-titulo">Estude + - Portal EDUSESC</a>
+            <p>Para mais informações, procurar a Secretaria do Projeto <b>Estude mais</b> no Sesc Taguatinga Norte, pelo Whatsapp (61) 9 9458-9774 ou pelo telefone 61 ...</p>    
+        </div>
+        <div class="site alinhamento-texto" style="margin-left: 16px;">
+            <a href="" class="site-link">http://www.edusesc.com.br › estude-mais-videos-educat...</a>
+            <a href="" class="site-titulo">Estude Mais – Vídeos educativos - Portal EDUSESC</a>
+            <p><b>Estude Mais</b> – Vídeos educativos. O site Observatório do Comércio do Sesc DF, traz dicas de estudos em tempos de isolamento social.</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://www.educamaisbrasil.com.br</a>
+            <a href="" class="site-titulo">Educa Mais Brasil: Bolsas de Estudo de até 70% para ...</a>
+            <p>O Educa Mais Brasil tem Bolsas de Estudo de até 70% em mais de 20.000 Escolas e ... de estudar em uma faculdade particular com a bolsa do Educa Mais Brasil, ...</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://sescdf.com.br › noticias › Paginas › Sesc-DF-lan...</a>
+            <a href="" class="site-titulo">Sesc-DF lança 1ª Edição do Guia Estude Mais- Dicas e ...</a>
+            <p>18 de mai. de 2021 — De acordo com a coordenadora pedagógica do <b>Estude Mais</b>, Tatiana Farias, o conteúdo está voltado não apenas para estudantes, mas para qualquer ...</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link">https://estudemaiscaps.com.br</a>
+            <a href="" class="site-titulo">Estude mais – Estude mais</a>
+            <p> O que é o <b>ESTUDE MAIS</b> CAPS? É um suplemento vitamínico natural para ajudar na melhora do desenvolvimento cognitivo e atenção, dar mais foco e concentração e ...</p>
+        </div>
+        <div class="site alinhamento-texto">
+            <a href="" class="site-link"><b>Anúncio</b> · http://www.espacoestudmais.com.br/ ▼ (61) 99166-6300</a>
+            <a href="" class="site-titulo">Espaço de Estudos Brasília - Estud+ Asa Sul</a>
+            <p>Cabines Individuais, Ambiente Climatizado, Ótimos Preços, Internet e muito <b>mais</b>! Salas de <b>Estudo</b> em Grupo. Internet de Qualidade. Isolamento Acústico. <b>Estude</b> com Determinação.
+                <a href="">Acesse nosso Site</a> · <a href="">Nossos Planos</a><br>
+                <a href=""><img src="https://img.icons8.com/material-outlined/12/000000/marker.png"/> Comércio Residencial Sul 509 Bloco C, Brasília - DF</a></p>
+        </div>
+       <div class="pesquisas-relacionadas">
+           <h2>Pesquisas relacionadas</h2>
+           <div class="pesquisas-relacionadas-colunas">
+               <div class="pesquisas-relacionadas-colunas-1">
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href="">estude mais <b>sesc</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href="">estude <b>em casas 2021</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href=""><b>sala de estudo df</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href="">estude mais <b>sala de estudos</b></a></div>
+               </div>
+               <div class="pesquisas-relacionadas-colunas-2">
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href=""><b>sala de estudos asa sul</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href=""><b>lugares para estudar em brasilia na pandemia</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href=""><b>sala de estudo asa norte</b></a></div>
+                    <div class="pesquisas-relacionadas-colunas-itens"><img src="https://img.icons8.com/material-outlined/18/000000/search--v1.png"/><a href="">estude mais <b>caps</b></a></div>
+                </div>
+           </div>
+       </div>
+
+       <div class="paginacao">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paginacao-google-letra-g"></td>
+                        <td class="paginacao-google-letra-o"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-o-2"></td>
+                        <td class="paginacao-google-letra-gle"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="">1</a></td>
+                        <td><a href="">2</a></td>
+                        <td><a href="">3</a></td>
+                        <td><a href="">4</a></td>
+                        <td><a href="">5</a></td>
+                        <td><a href="">6</a></td>
+                        <td><a href="">7</a></td>
+                        <td><a href="">8</a></td>
+                        <td><a href="">9</a></td>
+                        <td><a href="">10</a></td>
+                        <td style="text-align: right;"><a href="">Mais</a> </td>
+                    </tr>
+                </tbody>
+            </table>
+       </div>     
+    </main>
+    <footer>
+           <div class="footer-localidade alinhamento">
+               <div class="footer-localidade-pais">
+                    <p>Brasil</p>
+               </div>
+               <div class="footer-localidade-endereco">
+                   <b>☻ 77777-777 - Cidade, Estado - Sigla</b><a href="">- Do seu Histórico de localização</a><a href=""> - Atualizar local</a>
+               </div>
+           </div>
+           <hr style="opacity: 30%;">
+           <div class="footer-menu alinhamento">
+               <a href="">Ajuda</a></li>
+               <a href="">Enviar feedback</a></li>
+               <a href="">Privacidade</a></li>
+               <a href="">Termos</a></li>
+            </div>
+    </footer>
+    
+</body>
+</html>
